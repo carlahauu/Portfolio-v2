@@ -19,7 +19,7 @@
     display: flex;
     flex-direction: column;
     gap: 20px; 
-    width: 70vw;
+    width: 100%;
     height: 110%;
 }
 
@@ -123,11 +123,6 @@
         flex-direction: column;
         padding-bottom: 2em;
     }
-    .projectButtons a{
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-    }
     .sourceBtn{
         margin-top: 0.7em;
     }
@@ -136,8 +131,21 @@
 @media only screen and (min-width: 400px) and (max-width: 1300px) {
     .projectButtons a{
         width: 90%;
+        font-size: 15px;
+    }
+    .project p{
+        font-size: 17.5px;
     }
     .projectRight{
-        width: 85%;
+        width: 80%;
+    }
+    .projectSkills p{
+        font-size: 13px;
+    }
+    .project img{
+        height: 250px;
+        width: 100%;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 0;
     }
 }

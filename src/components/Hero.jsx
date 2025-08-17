@@ -16,10 +16,10 @@ function Hero() {
               <br></br>
               <FaMapPin />  Los Angeles Metropolitian Area, California
             </p>
-            <p>I am a sophomore studying Computer Science at University of California, Riverside! 
-                I am passionate about building software that actually make life better—whether it’s something that saves time, solves a problem, or just makes people smile. 
-                <br></br>
-                In my spare time, I enjoy trying new food spots with my friends and playing tennis! I also enjoy watching Korean and Hong Kong dramas! 
+            <p>
+            I’m a sophomore studying Computer Science at UC Riverside! I'm passionate about building software that saves time, solves problems, or simply makes people smile. 
+            <br></br>
+            In my free time, I enjoy trying new food spots, playing tennis, and watching Korean and Hong Kong dramas.
             </p>
             <button>Contact Me</button>
         </div>
