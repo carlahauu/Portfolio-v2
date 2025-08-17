@@ -25,7 +25,7 @@ function Navbar() {
             <a className='navItems' href='/#experience'>Experience</a>
             <a className='navItems' href='/#projects'>Projects</a>
             <a className='navItems' href='/contact'>Contact</a>
-            <a className='navItems'>Resume</a>
+            <a className='navItems' href='/resume'>Resume</a>
             <div className="socials">
               <a href='https://www.linkedin.com/in/carla-hau/'><FaLinkedin className='socialIcon'/></a>
               <a href='http://github.com/carlahauu'><IoLogoGithub className='socialIcon' /></a>
@@ -48,7 +48,7 @@ function Navbar() {
           <a href="/contact">Contact</a>
         </li>
         <li>
-          <a>Resume</a>
+          <a href='/resume'>Resume</a>
         </li>
       </ul>
     </div>
