@@ -1,0 +1,143 @@
+.projectsHeading{
+    font-size: 25px;
+    text-align: left;
+    font-weight: 700;
+    margin-top: 2em;
+}
+
+.project{
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    background-color: #202020;
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.projects{
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+    width: 70vw;
+    height: 110%;
+}
+
+.project img{
+    object-fit: cover;
+    height: 370px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.projectRight{
+    margin-left: 2em;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 50%;
+    height: 100%;
+}
+
+.projectLeft{
+    margin-bottom: -7px;
+}
+
+.description{
+    font-size: 18px;
+    margin: 0;
+    margin-bottom: 1em;
+}
+
+.projectSkills{
+    display: flex;
+    flex-wrap: wrap;  
+    gap: 10px;
+    width: fit-content;
+    margin-bottom: 2em;
+}
+
+.projectSkills p{
+    font-size: 15px;
+    background-color: #9bb6572e;
+    border-color: #9bb657c3;
+    border-width: 1px;
+    border-style: solid;
+    color: #d0ea8e;
+    border-radius: 10px;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    margin: 0;
+}
+
+.demoBtn{
+    background-color: #9bb657;
+    color: #202020;
+    font-size: 17px;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    border-radius: 20px;
+    margin-right: 0.5em;
+}
+
+.sourceBtn{
+    border-color: #9bb657;
+    border-width: 1px;
+    border-style: solid;
+    color: #9bb657;
+    font-size: 17px;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    border-radius: 20px;
+}
+
+.demoBtn:hover{
+    color: #202020;
+}
+
+.sourceBtn:hover{
+    color: #9bb657;
+}
+
+@media only screen and (max-width: 1200px) {
+    .project img{
+        height: 320px;
+        width: 100%;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 0;
+    }
+    .projectRight{
+        width: 75%;
+    }
+    .projects{
+        display: flex;
+        flex-direction: column;
+    }
+    .project{
+        flex-direction: column;
+        padding-bottom: 2em;
+    }
+    .projectButtons a{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .sourceBtn{
+        margin-top: 0.7em;
+    }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 1300px) {
+    .projectButtons a{
+        width: 90%;
+    }
+    .projectRight{
+        width: 85%;
+    }
+}

@@ -1,0 +1,30 @@
+.footerContainer{
+    background: #20202066;
+    width: 100vw;
+    margin-left: -15vw;
+    place-items: center;
+    padding-bottom: 1em;
+    margin-top: 3em;
+}
+
+.footerItems{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 15vw;
+    padding-right: 15vw;
+}
+
+.footerItems p{
+    font-size: 20px;
+    margin-top: 1.2em;
+}
+
+.footerSocialIcon{
+    margin-left: 0.5em;
+}
+
+.footerSocials{
+    margin-top: 1em;
+    font-size: 25px;
+}

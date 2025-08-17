@@ -1,0 +1,83 @@
+.contactContainer h1{
+    margin-bottom: -0.5em;
+}
+
+.contactContainer p{
+    font-size: 20px;
+}
+
+.contactContainer{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactContainer input{
+    background-color: white;
+    color: black;
+    font-size: 18px;
+    margin-top: 10px;
+    width: 100%;
+    border-radius: 10px;
+    padding-left: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    border-style: none;
+}
+
+.contactContainer form {
+    display: flex;
+    flex-direction: column;
+    height: 70%; 
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contactContainer textarea{
+    background-color: white;
+    color: black;
+    font-size: 18px;
+    margin-top: 10px;
+    width: 460px;
+    border-radius: 10px;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 1em;
+    padding-bottom: 1.5em;
+    border-style: none;
+    margin-left: 1em;
+}
+
+.message{
+    width: max-content;
+}
+
+.contactContainer button{
+    width: 500px;
+    margin-left: 1em;
+    background-color: #9BB657;
+    border-style: none;
+    border-radius: 20px;
+    font-size: 18px;
+    margin-top: 1em;
+    font-size: 20px;
+    color: #202020;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+.contactContainer button:hover{
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+    .contactContainer textarea{
+        width: 385px;
+    }
+    .contactContainer button{
+        width: 420px;
+        margin-left: 1.5em;
+    }
+}
+
+

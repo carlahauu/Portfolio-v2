@@ -1,0 +1,64 @@
+.skillsContainer{
+    font-size: 25px;
+    text-align: left;
+    font-weight: 700;
+    margin-top: 3em;
+}
+
+.language img{
+    width: 1.2rem;
+    margin-right: 0.4em;
+}
+
+.language{
+    display: flex;
+    flex-direction: row;
+    height: 0.8em;
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.3em;
+    padding-bottom: 0.4em;
+    border-radius: 10px;
+    margin-right: 0.3em;
+}
+
+
+.language p{
+    margin-top: -0.1em;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.languages{
+    display: flex; 
+    flex-wrap: wrap;
+    width: 70vw;
+    margin-top: -0.5em;
+    gap: 10px;
+}
+
+@media only screen and (max-width: 1300px) {
+    .languages{
+        margin-top: -0.5em;
+        width: 75vw;
+        display: grid; 
+        grid-template-columns: repeat(2, 1fr); 
+        gap: 15px; 
+    }
+    .language{
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 565px) {
+    .languages{
+        margin-top: -0.5em;
+        width: 75vw;
+    }
+    .language{
+        text-align: center;
+    }
+}

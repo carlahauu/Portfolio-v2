@@ -1,0 +1,24 @@
+[
+    {
+        "position": "Software Development Engineer Intern", 
+        "company": "Amazon Web Services", 
+        "description": "• Developed an internal tool with Python for SageMaker AI team, automating manual processes and significantly reducing manual work time during ticket handling.", 
+        "date": "June 2025 - Present", 
+        "location": "Bellevue, WA", 
+        "logo": "https://yt3.googleusercontent.com/8SG9uDv2ITO754-r_Uoq4_nkuBBzY8iD6piQ6t85eEANlA9v-9jTE9VFJ4YE2CkZftIQYlVM=s900-c-k-c0x00ffffff-no-rj", 
+        "skills": [
+            "Python", "Amazon CloudWatch", "Boto3", "API Integration"
+        ]
+    }, 
+    {
+        "position": "Frontend Development Intern", 
+        "company": "Constellation Technologies", 
+        "description": "• Developed Project Nova Portal, a digital hub supporting a cohort of students who raised $40,000 in investments, for Constellation Technologies (a project of Constellation Foundation, fiscally sponsored by The Hack Foundation, a 501(c)(3) nonprofit).", 
+        "date": "Aug 2024 - Jan 2025", 
+        "location": "Remote", 
+        "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQF-X84u08MqBA/company-logo_200_200/company-logo_200_200/0/1721499751989/weareconstellationtechnologies_logo?e=1757548800&v=beta&t=vhqlycR6K6JMX0iekvgVqIs3zreQ3kEwWmqvkP3AZds", 
+        "skills": [
+            "React.js", "Google Firebase", "MaterialUI Icons", "API Integration"
+        ]
+    }
+]

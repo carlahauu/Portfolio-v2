@@ -1,0 +1,83 @@
+.experienceContainer p{
+    text-align: left;
+}
+
+.experienceHeading{
+    font-size: 25px;
+    margin-top: 3em;
+    font-weight: 700;
+}
+
+.experienceLeft img{
+    width: 4.5em;
+    height: 4.5em;
+    margin-right: 1em;
+}
+
+.experience{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 1em;
+}
+
+.experienceLeft{
+    display: flex; 
+    flex-direction: row;
+}
+
+.experienceDetails{
+    display: flex;
+    flex-direction: column;
+}
+
+.experienceDetails p{
+    font-weight: 500;
+    font-size: 20px;
+    margin: 0px;
+}
+
+.experienceRight p{
+    font-weight: 500;
+    font-size: 20px;
+    margin: 0px;
+}
+
+.experienceContainer{
+    width: 70vw;
+}
+
+.experienceSkills{
+    display: flex;
+    gap: 10px;
+    width: fit-content;
+    flex-wrap: wrap;  
+    margin-bottom: 2em;
+}
+
+.experienceSkills p{
+    font-size: 15px;
+    background-color: #9bb6572e;
+    border-color: #9bb657c3;
+    border-width: 1px;
+    border-style: solid;
+    color: #d0ea8e;
+    border-radius: 10px;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    margin: 0;
+}
+
+@media only screen and (max-width: 1100px) {
+    .experienceDetails p{
+        font-size: 18px;
+    }
+    .experienceRight{
+        display: none;
+    }
+    .experienceContainer{
+        margin-top: -0.3em;
+    }
+}

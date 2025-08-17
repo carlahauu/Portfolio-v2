@@ -1,0 +1,101 @@
+.left{
+    font-size: 23px;
+    line-height: 0;
+}
+
+.navContainer{
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #202020;
+    position: fixed;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    border-radius: 30px;
+    padding-left: 2em;
+    padding-right: 2em;
+    margin-top: -4.5em;
+    width: 65vw;
+}
+
+.navContainer a {
+    color: white;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.navContainer a:hover {
+    cursor: pointer;
+    color: #9BB657;
+}
+
+.right{
+    padding-top: 7px;
+    flex: row;
+    display: flex;
+}
+
+.socials{
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+.socialIcon{
+    font-size: 25px;
+    margin-right: 0px;
+}
+
+.hamburger{
+    display: none;
+    font-size: 30px;
+}
+
+.hamburger:hover{
+    cursor: pointer;
+    color: #9BB657;
+}
+
+.mobileNavContainer{
+    position: fixed;
+    background-color: #202020a4;
+    padding-right: 1em;
+    display: flex; 
+    align-items: flex-end;
+    margin-top: -1em;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-right: 4em;
+    width: 70vw;
+    margin-top: -1.8em;
+    padding-top: 1em;
+}
+
+.mobileNavItems{
+    list-style-type: none;
+    margin-left: -1em;
+    text-align: right;
+}
+.mobileNavItems a{
+    color: white;
+    font-size: 18px;
+}
+.mobileNavItems a:hover{
+    color: #9BB657;
+}
+
+@media only screen and (max-width: 1100px) {
+    .navItems{
+        display: none;
+        width: 60vw;
+    }
+    .socials{
+        display: block;
+    }
+    .hamburger{
+        display: block;
+    }
+    .navContainer{
+        margin-top: -4.5em;
+    }
+}

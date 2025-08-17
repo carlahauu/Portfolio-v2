@@ -1,0 +1,76 @@
+{
+    "languages": [
+        {
+            "skill": "Python", 
+            "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/800px-Python-logo-notext.svg.png"
+        },
+        {
+            "skill": "Javascript", 
+            "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/500px-JavaScript-logo.png"
+        }, 
+        {
+            "skill": "C++", 
+            "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1200px-ISO_C%2B%2B_Logo.svg.png"
+        }, 
+        {
+            "skill": "Java", 
+            "img": "https://cdn-icons-png.flaticon.com/512/226/226777.png"
+        }, 
+        {
+            "skill": "HTML", 
+            "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Html-1.svg/640px-Html-1.svg.png"
+        }, 
+        {
+            "skill": "CSS", 
+            "img": "https://upload.wikimedia.org/wikipedia/commons/6/62/CSS3_logo.svg"
+        }
+    ], 
+    "technologies": [
+        {
+            "skill": "React.js", 
+            "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/React_Logo_SVG.svg/640px-React_Logo_SVG.svg.png"
+        },
+        {
+            "skill": "Spring Boot", 
+            "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Spring_Boot.svg/640px-Spring_Boot.svg.png"
+        }, 
+        {
+            "skill": "TailwindCSS", 
+            "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/1200px-Tailwind_CSS_Logo.svg.png"
+        },
+        {
+            "skill": "MaterialUI", 
+            "img": "https://img.icons8.com/?size=512&id=gFw7X5Tbl3ss&format=png"
+        }
+    ], 
+    "tools": [
+        {
+            "skill": "Git", 
+            "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Git_icon.svg/1200px-Git_icon.svg.png"
+        }, 
+        {
+            "skill": "Docker", 
+            "img": "https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/97_Docker_logo_logos-512.png"
+        }, 
+        {
+            "skill": "Firebase", 
+            "img": "https://cdn.worldvectorlogo.com/logos/firebase-1.svg"
+        }, 
+        {
+            "skill": "Supabase", 
+            "img": "https://img.icons8.com/?size=512&id=grZaE9tjqDyr&format=png"
+        },
+        {
+            "skill": "VS Code", 
+            "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/1200px-Visual_Studio_Code_1.35_icon.svg.png"
+        }, 
+        {
+            "skill": "IntelliJ", 
+            "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/JetBrains_IntelliJ_IDEA_Product_Icon.svg/1200px-JetBrains_IntelliJ_IDEA_Product_Icon.svg.png"
+        }, 
+        {
+            "skill": "Figma", 
+            "img": "https://content-media-cdn.codefinity.com/courses/f9b355ab-23dd-4d38-a615-a41b6685d244/Figma-logo.svg.png"
+        }
+    ]
+}
