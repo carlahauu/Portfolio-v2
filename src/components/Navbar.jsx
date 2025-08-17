@@ -3,6 +3,7 @@ import "../styles/Navbar.css";
 import { Fa500Px, FaLinkedin, FaThLarge } from "react-icons/fa";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { IoLogoGithub } from "react-icons/io";
+import Resume from '../assets/Resume.pdf'
 
 function Navbar() {
   const [style, setStyle] = useState("none");
@@ -25,7 +26,7 @@ function Navbar() {
             <a className='navItems' href='/#experience'>Experience</a>
             <a className='navItems' href='/#projects'>Projects</a>
             <a className='navItems' href='/contact'>Contact</a>
-            <a className='navItems' href='/resume'>Resume</a>
+            <a className='navItems' href={Resume}>Resume</a>
             <div className="socials">
               <a href='https://www.linkedin.com/in/carla-hau/'><FaLinkedin className='socialIcon'/></a>
               <a href='http://github.com/carlahauu'><IoLogoGithub className='socialIcon' /></a>
@@ -48,7 +49,7 @@ function Navbar() {
           <a href="/contact">Contact</a>
         </li>
         <li>
-          <a href='/resume'>Resume</a>
+          <a href={Resume}>Resume</a>
         </li>
       </ul>
     </div>
