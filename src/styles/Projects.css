@@ -119,10 +119,11 @@
 }
 
 .demoBtns{
+    display: none;
     margin-top: 1.2em;
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1300px) {
     .project img{
         height: 320px;
         width: 100%;
@@ -146,6 +147,15 @@
 }
 
 @media only screen and (min-width: 300px) and (max-width: 1300px) {
+    .projectButtons{
+        display: none;
+    }
+    .demoBtns{
+        display: block;
+    }
+    .project{
+        padding: 0em;
+    }
     .projectButtons a{
         width: 90%;
         font-size: 17px;
@@ -169,12 +179,6 @@
 }
 
 @media only screen and (min-width: 300px) and (max-width: 770px) {
-    .projectButtons{
-        display: none;
-    }
-    .project{
-        padding: 0em;
-    }
     .project p{
         font-size: 15.5px;
     }
