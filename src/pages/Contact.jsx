@@ -50,12 +50,8 @@ function Contact() {
           <div className="inputs">
             <input type="text" name="name" placeholder='Your Name' required />
             <input type="email" name="email" placeholder='Your Email' required />
-          </div>
-
-          <div className="message">
             <textarea name="message" placeholder='Your Message' required></textarea>
           </div>
-
           <button type="submit">Submit Form</button>
         </form>
       )}

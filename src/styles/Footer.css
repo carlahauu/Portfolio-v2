@@ -1,7 +1,5 @@
 .footerContainer{
-    background: #20202066;
-    width: 100vw;
-    margin-left: -15vw;
+    width: 100%;
     place-items: center;
     padding-bottom: 1em;
     margin-top: 3em;

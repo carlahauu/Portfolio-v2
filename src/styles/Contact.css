@@ -33,19 +33,23 @@
     align-items: center;
 }
 
-.contactContainer textarea{
+.contactContainer input,
+.contactContainer textarea {
+    width: 100%;
+    box-sizing: border-box;
     background-color: white;
     color: black;
     font-size: 18px;
-    margin-top: 10px;
-    width: 460px;
     border-radius: 10px;
-    padding-left: 1em;
-    padding-right: 1em;
+    padding: 0.5em 1em;
+    border: none;
+    margin-top: 10px;
+}
+
+.contactContainer textarea {
     padding-top: 1em;
     padding-bottom: 1.5em;
-    border-style: none;
-    margin-left: 1em;
+    margin-left: 0; 
 }
 
 .message{
@@ -53,7 +57,7 @@
 }
 
 .contactContainer button{
-    width: 500px;
+    width: 50%;
     margin-left: 1em;
     background-color: #9BB657;
     border-style: none;
@@ -69,15 +73,3 @@
 .contactContainer button:hover{
     cursor: pointer;
 }
-
-@media only screen and (max-width: 600px) {
-    .contactContainer textarea{
-        width: 385px;
-    }
-    .contactContainer button{
-        width: 420px;
-        margin-left: 1.5em;
-    }
-}
-
-

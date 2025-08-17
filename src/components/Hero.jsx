@@ -12,7 +12,7 @@ function Hero() {
         <div className="heroRight">
             <h1>Hey, I'm Carla Hau!</h1>
             <p style={{opacity: 0.6}}>
-              Full Stack Software Developer & UI/UX Designer
+              Full Stack Software Developer
               <br></br>
               <FaMapPin />  Los Angeles Metropolitian Area, California
             </p>
@@ -21,7 +21,7 @@ function Hero() {
             <br></br>
             In my free time, I enjoy trying new food spots, playing tennis, and watching Korean and Hong Kong dramas.
             </p>
-            <button>Contact Me</button>
+            <button><a href='/contact'>Contact Me</a></button>
         </div>
     </div>
   )

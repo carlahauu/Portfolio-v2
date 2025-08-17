@@ -1,6 +1,8 @@
 import React from 'react'
 import '../styles/Projects.css'
 import projects from '../projects.json'
+import { IoLogoGithub } from "react-icons/io";
+import { IoMdOpen } from "react-icons/io";
 
 function Projects() {
   return (
@@ -13,7 +15,13 @@ function Projects() {
                         <img src={project.image}></img>
                     </div>
                     <div className="projectRight">
-                        <h2>{project.name}</h2>
+                        <div className="projectHeading">
+                            <h2>{project.name}</h2>
+                            <div className="demoBtns">
+                                <a href={project.source}><IoLogoGithub /></a>
+                                <a href={project.demo}><IoMdOpen /></a>
+                            </div>
+                        </div>
                         <p className='description'>{project.description}</p>
                         <div className="projectSkills">
                             {(project.skills).map(skill => (

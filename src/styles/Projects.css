@@ -105,6 +105,23 @@
     color: #9bb657;
 }
 
+.projectHeading{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.demoBtns a{
+    font-size: 30px;
+    margin-left: 0.5em;
+    color: white;
+    opacity: 0.6;
+}
+
+.demoBtns{
+    margin-top: 1.2em;
+}
+
 @media only screen and (max-width: 1200px) {
     .project img{
         height: 320px;
@@ -128,10 +145,11 @@
     }
 }
 
-@media only screen and (min-width: 400px) and (max-width: 1300px) {
+@media only screen and (min-width: 300px) and (max-width: 1300px) {
     .projectButtons a{
         width: 90%;
-        font-size: 15px;
+        font-size: 17px;
+        flex-wrap: wrap;
     }
     .project p{
         font-size: 17.5px;
@@ -147,5 +165,20 @@
         width: 100%;
         border-top-right-radius: 20px;
         border-bottom-left-radius: 0;
+    }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 770px) {
+    .projectButtons{
+        display: none;
+    }
+    .project{
+        padding: 0em;
+    }
+    .project p{
+        font-size: 15.5px;
+    }
+    .projectSkills p{
+        font-size: 14px;
     }
 }
