@@ -13,6 +13,14 @@
     padding-right: 15vw;
 }
 
+.footerItems a{
+    color: white;
+}
+
+.footerItems a:hover{
+    color: #9BB657;
+}
+
 .footerItems p{
     font-size: 20px;
     margin-top: 1.2em;

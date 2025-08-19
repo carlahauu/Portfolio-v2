@@ -8,8 +8,8 @@ function Footer() {
     <div className='footerContainer'>
       <div className="footerItems">
         <div className="footerSocials">
-          <a><FaLinkedin className='footerSocialIcon'/></a>
-          <a><IoLogoGithub className='footerSocialIcon' /></a>
+          <a href='https://www.linkedin.com/in/carla-hau/'><FaLinkedin className='footerSocialIcon'/></a>
+          <a href='http://github.com/carlahauu'><IoLogoGithub className='footerSocialIcon' /></a>
         </div>
       </div>
       <p>Made with love by <a>Carla Hau</a></p>
