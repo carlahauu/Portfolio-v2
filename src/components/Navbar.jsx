@@ -24,7 +24,7 @@ function Navbar() {
         <div className="right">
             <a className='navItems' href='/#skills'>Skills</a>
             <a className='navItems' href='/#experience'>Experience</a>
-            <a className='navItems' href='/#projects'>Projects</a>
+            <a className='navItems' href='/projects'>Projects</a>
             <a className='navItems' href='/contact'>Contact</a>
             <a className='navItems' href={Resume}>Resume</a>
             <div className="socials">
@@ -43,7 +43,7 @@ function Navbar() {
           <a href="/#experience">Experience</a>
         </li>
         <li>
-          <a href="/#projects">Projects</a>
+          <a href="/projects">Projects</a>
         </li>
         <li>
           <a href="/contact">Contact</a>
