@@ -1,7 +1,9 @@
-# Personal Website
-Feel free to explore my project to view some of my personal projects and work experience as a Full-Stack Software Developer! 
-Built with React.js. Deployed with Vercel. 
-Check it out at [carlahau.com](https://www.carlahau.com/)
+<h1 align="center">Personal Website</h1>
+
+<div width="50px">
+  <p align="center">Feel free to explore my portfolio website to view some of my personal projects and work experience as a Full-Stack Software Developer! </p>
+  <p align="center">Built with React.js. Deployed with Vercel. Check it out at <a href="https://www.carlahau.com/">carlahau.com</a></p>
+</div>
 
 <img width="1710" height="907" alt="Screenshot 2025-08-17 at 5 22 19 PM" src="https://github.com/user-attachments/assets/0f00126d-a891-463e-8f34-47756b42a43a" />
 
