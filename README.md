@@ -1,6 +1,6 @@
 <h1 align="center">Personal Website</h1>
 
-<div width="50px">
+<div>
   <p align="center">Feel free to explore my portfolio website to view some of my personal projects and work experience as a Full-Stack Software Developer! </p>
   <p align="center">Built with React.js. Deployed with Vercel. Check it out at <a href="https://www.carlahau.com/">carlahau.com</a></p>
 </div>
@@ -29,3 +29,5 @@ If you'd like to explore the code:
 I’m always open to new opportunities and collaborations! If you’d like to get in touch, you can reach me via the contact form on the website or directly at carlahau110@gmail.com
 
 <img width="1710" height="907" alt="Screenshot 2025-08-17 at 5 28 12 PM" src="https://github.com/user-attachments/assets/4b52fe95-2a3f-4c56-af1a-c465471b1dad" />
+
+> Developed by Carla Hau
