@@ -14,7 +14,7 @@ function Hero() {
             <p style={{opacity: 0.6}}>
               Full Stack Software Developer
               <br></br>
-              <FaMapPin />  Los Angeles Metropolitian Area, California
+              <FaMapPin /> Los Angeles Metropolitian Area
             </p>
             <p>
             I’m a sophomore studying Computer Science at UC Riverside! I'm passionate about building software that saves time, solves problems, or simply makes people smile. 
