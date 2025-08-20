@@ -8,8 +8,9 @@
 <img width="1710" height="907" alt="Screenshot 2025-08-17 at 5 22 19 PM" src="https://github.com/user-attachments/assets/0f00126d-a891-463e-8f34-47756b42a43a" />
 
 ## Sections
+- **Skills**: Quick overview of languages, frameworks, and developer tools that I use! 
+- **Work Experience**: A brief overview of my work experience in the software engineering industry. 
 - **Projects**: Explore a collection of my favorite personal projects, showcasing my skills in software development. 
-- **About Me**: Learn more about my background, hobbies, education, and interests. This section offers a personal touch so you can get to know me beyond just my work.
 - **Contact**: Feel free to reach out for collaboration opportunities, project inquiries, or just to say hello. You can easily get in touch with me through the contact page. I’d love to hear from you!
   
 ## Technologies Used
