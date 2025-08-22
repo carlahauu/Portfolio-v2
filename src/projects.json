@@ -8,5 +8,15 @@
         "image": "https://media.licdn.com/dms/image/v2/D5622AQGs7OnHXAwXxA/feedshare-shrink_800/B56ZiYgnHnHcAk-/0/1754905347570?e=1758153600&v=beta&t=70FaHPcWN7OBIUyzn1xoRqhcUxLmg16YHY5BN2CM5j0", 
         "demo": "https://beananddo.carlahau.com", 
         "source": "https://github.com/carlahauu/Bean-And-Do-Frontend"
+    }, 
+    {
+        "name": "Fotolab", 
+        "skills": [
+            "React.js", "Vercel"
+        ], 
+        "description": "Bring the photo booth experience straight to your device! An online photo booth that lets you capture and download your own photo strips in seconds.", 
+        "image": "https://media.discordapp.net/attachments/407710496670875661/1408392264828457051/image.png?ex=68a99302&is=68a84182&hm=b68b072f0b954b76fb9fdd3ea4986392d67f22538373d989f33e83cc5e49a76c&=&format=webp&quality=lossless&width=2182&height=1620", 
+        "demo": "https://fotolab.carlahau.com", 
+        "source": "https://github.com/carlahauu/fotolab"
     }
 ]
