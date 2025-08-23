@@ -15,7 +15,7 @@
             "React.js", "Vercel"
         ], 
         "description": "Bring the photo booth experience straight to your device! An online photo booth that lets you capture and download your own photo strips in seconds.", 
-        "image": "https://media.discordapp.net/attachments/407710496670875661/1408392264828457051/image.png?ex=68a99302&is=68a84182&hm=b68b072f0b954b76fb9fdd3ea4986392d67f22538373d989f33e83cc5e49a76c&=&format=webp&quality=lossless&width=2182&height=1620", 
+        "image": "/Fotolab.png", 
         "demo": "https://fotolab.carlahau.com", 
         "source": "https://github.com/carlahauu/fotolab"
     }
